@@ -24,6 +24,18 @@ enrollment-form/
 - npm o yarn
 - React 16.8+ (para hooks)
 
+## Desarrollo Local
+
+Instala las dependencias e inicia tanto la API como la aplicación React:
+
+```bash
+npm install
+node server.js   # inicia la API en http://localhost:3001
+npm start        # inicia la app en http://localhost:3000
+```
+
+La API sirve datos de ejemplo desde `data/persons.json`.
+
 ## Instalación y Despliegue
 
 ### Opción 1: Integración en Proyecto React Existente
